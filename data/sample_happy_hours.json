@@ -1,0 +1,57 @@
+{
+	"happyhours" : {
+		"metadata" : {
+			"message" 		: "whatever"
+			,"isSuccess"	: true
+			,"type" 		: "success|fail|error|etc"
+			,"queryParams" 	: "zip=12205&r=2"
+			,"moreCount" 	: 4
+		}
+		,"data" : {
+			"hh_1" : {
+				"barName" 	: "Rob's Royal Pub"
+				,"barId"	: 1
+				,"distance"	: 0.5
+				,"lat"		: 100
+				,"long"		: 100
+				,"isNow"	: true
+				,"beerPrice"	: 2
+				,"winePrice"	: 3
+				,"mixedPrice"	: 4
+			}
+			,"hh_2" : {
+				"barName" 	: "Luke's Liquor Lounge"
+				,"barId"	: 2
+				,"distance"	: 0.75
+				,"lat"		: 100
+				,"long"		: 100
+				,"isNow"	: true
+				,"beerPrice"	: 2
+				,"winePrice"	: 3
+				,"mixedPrice"	: 4
+			}
+			,"hh_3" : {
+				"barName" 	: "Britney's Boozin' Bar"
+				,"barId"	: 3
+				,"isNow"	: true
+				,"distance"	: 0.25
+				,"lat"		: 100
+				,"long"		: 100
+				,"beerPrice"	: 2
+				,"winePrice"	: 3
+				,"mixedPrice"	: 4
+			}
+			,"hh_4" : {
+				"barName" 	: "Christina's Cocktail Club"
+				,"barId"	: 4
+				,"isNow"	: true
+				,"distance"	: 0.85
+				,"lat"		: 100
+				,"long"		: 100
+				,"beerPrice"	: 2
+				,"winePrice"	: 3
+				,"mixedPrice"	: 4
+			}
+		}
+	}
+}
