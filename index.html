@@ -16,58 +16,107 @@
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-	<!--[if lt IE 7]>
+	<!--[if lt IE 9]>
 		<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
 
-	<div class="header-container">
-		<header class="wrapper clearfix">
-			<h1 class="title">Pub Surge</h1>
-			<nav>
-				<ul>
-					<li><a href="#">nav ul li a</a></li>
-					<li><a href="#">nav ul li a</a></li>
-					<li><a href="#">nav ul li a</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
 
-	<div class="main-container">
-		<div class="main wrapper clearfix">
+	<header class="clearfix bodyBlock">
+		<h1 class="title">
+			<span>Pub Surge</span>
+			<div class="animatedLogo">
+				{logo}
+			</div>
+		</h1>
+		<form class="params">
+			<ol>
+				<li>
+					<label>Where</label>
+					<input type="text" value="HERE">
+					<div class="pop">
+						
+					</div>
+				</li>
+				<li><label>Within</label>
+					<input type="text" value="2 mi.">
+					<div class="pop">
+						
+					</div>
+				</li>
+				<li><label>When</label>
+					<input type="text" value="NOW" >
+					<div class="pop">
+						
+					</div>
+				</li>
+			</ol>
+		</form>
+		<nav class="mainNav">
+			<a href="#!" class="list">List</a>
+			<a href="#!" class="map">Map</a>
+		</nav>
+	</header>
 
-			<article>
-				<header>
-					<h1>article header h1</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
-				</header>
-				<section>
-					<h2>article section h2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-				</section>
-				<section>
-					<h2>article section h2</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices. Proin in est sed erat facilisis pharetra.</p>
-				</section>
-				<footer>
-					<h3>article footer h3</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.</p>
-				</footer>
-			</article>
+	<section class="clearfix bodyBlock start">
+		<div class="ageConfirmation">
+			Are you 21+ years old?
+			<button type="button">No</button>
+			<button type="button">Yes</button>
+		</div>
+	</section>
 
-			<aside>
-				<h3>aside</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor. Etiam ullamcorper lorem dapibus velit suscipit ultrices.</p>
-			</aside>
 
-		</div> <!-- #main -->
-	</div> <!-- #main-container -->
+	<section class="clearfix bodyBlock happyhourList">
+		<h2>List of Happy Hours</h2>
+		<ol>
+			<li>
+				<h3>Happy Hour Now</h3>
+				<ol class="hhList">
+					<li>
+						<span class="barName">Lucky's Bar &amp; Grill</span>
+						<span class="distance">0.5 mi.</span>
+						<ul class="priceList">
+							<li>4</li>
+							<li>4</li>
+							<li>6</li>
+						</ul>
+					</li>
+					<li>	</li>
+					<li>	</li>
+					<li>	</li>
+					<li>	</li>
+					<li>	</li>
+				</ol>
+			</li>
+			<li class="closed">
+				<h3>Later Tonight</h3>
+				<ol>
+				</ol>
+			</li>
+			<li class="closed">
+				<h3>Friday</h3>
+				<ol>
+				</ol>
+			</li>
+			<li class="closed">
+				<h3>Saturday</h3>
+				<ol>
+				</ol>
+			</li>			
+		</ol>
+	</section>
 
-	<div class="footer-container">
-		<footer class="wrapper">
-			<h3>footer</h3>
-		</footer>
-	</div>
+	
+	<section class="clearfix bodyBlock barMap">
+		<h2>Map of Bars</h2>
+		<div class="map">
+		</div>
+	</section>
+	
+	<footer class="clearfix bodyBlock">
+		&copy; 2014
+	</footer>
+	
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
