@@ -1,1 +1,13 @@
-Data syntax error. You have to use <a href="/">Color Scheme Designer</a> to export a color palette.
+Yellows
+#DDAE2E
+#867546
+#634A04
+#F2CF6F
+#F2DCA0
+
+Blues
+#313999
+#36495D
+#050945
+#747CD9
+#9A9ED9
