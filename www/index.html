@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Viga" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<title>PubSurge</title>
+</head>
+
+<body>
+	<nav>
+		<a href="#home" class="home">&lt; PubSurge</a>
+	</nav>
+
+
+	<article class="home">
+		<h1>PubSurge</h1>
+		<section>
+			<a class="button full" href="#join">Join a Pub Crawl</a>
+			<a class="button full" href="#new">Create a New Pub Crawl</a>
+		</section>
+		<section class="split">
+			<div class="location">
+				<i></i>
+				<div class="city-state">Albany, NY</div>
+				<button type="button" class="button">Location</button>
+				<a href="#nearby" class="button">Nearby</a>
+			</div>
+			<div class="profile">
+				<i></i>
+				<div>Your Name</div>
+				<a href="#login" class="button">Login</button>
+				<a href="#mine" class="button">Manage Crawls</a>
+			</div>
+		</section>
+	</article>
+
+	<article class="nearby">
+		<h1>Nearby</h1>
+		<ol>
+			<li><a href="#pubcrawl">Crawl A</a> (# of stops) (date) (time) (number of people)</li>
+			<li><a href="#pubcrawl">Crawl B</a></li>
+			<li><a href="#pubcrawl">Crawl C</a></li>
+			<li><a href="#pubcrawl">Crawl D</a></li>
+			<li><a href="#pubcrawl">Crawl E</a></li>
+		</ol>
+		<ul>
+			<li>Pub A</li>
+			<li>Pub B</li>
+			<li>Pub C</li>
+			<li>Pub D</li>
+		</ul>
+	</article>
+
+	<article class="join">
+		<h1>Join a Pub Crawl</h1>
+		<form>
+			<label>Enter Hashtag Code</label>
+			<input type="text" />
+			<button type="button" class="button">Find</button>
+		</form>
+		<div>OR</div>
+		<a href="#nearby" class="button full">Find Pub Crawls Nearby</a>
+	</article>
+
+	<article class="mine">
+		<h1>Manage Crawls</h1>
+	</article>
+
+	<article class="new">
+		<h1>New Pub Crawl</h1>
+		<h2>Stops</h2>
+		<p class="instructions">
+			Tap the map to select a stop for your pub crawl, and then click the Add button below.
+		</p>
+		<div class="map">
+			(map goes here)
+		</div>
+		<button type="button" class="button full">Add a Stop</button>
+		<ol>
+			<li>Tavern A (address) (link to map app)</li>
+			<li>Tavern E (address) (link to map app)</li>
+			<li>Tavern D (address) (link to map app)</li>
+			<li>Tavern B (address) (link to map app)</li>
+			<li>Tavern C (address) (link to map app)</li>
+		</ol>
+
+		<h2>Details</h2>
+		<form>
+			<label>Name</label>
+			<input type="text" />
+			<label>Date</label>
+			<input type="date" />
+			<label>Start Time</label>
+			<input type="time" />
+		</form>
+		<h2>Invite People</h2>
+		<form>
+			<label>Public?</label>
+			<input type="checkbox" />
+			<label>Hashtag Code</label>
+			<input type="text" />
+
+			<section class="split">
+				<div>
+					<a href="#new" class="button">Check Availability</a>
+				</div>
+				<div>
+					<a href="#new-invite" class="button">Generate New</a>
+				</div>
+			</section>		
+			<label>Link</label>
+			<a href="#">http://pubsurge/us/state/cityname/hashtag/</a>
+		</form>
+		<a href="#pubcrawl" class="button full">Save Pub Crawl</a>
+	</article>
+
+
+	<article class="pubcrawl">
+		<h1>(pub crawl name)</h1>
+		<p>
+			(details: hashtag, when)
+		</p>
+		<div class="map">
+			(map)
+		</div>
+		<p>
+			(links for maps app, links for sharing)
+		</p>
+		<p>
+			(link to edit if it's your crawl)
+		</p>
+		<p>
+			(link to add to calendar)
+		</p>
+		<p>
+			(button to RSVP)
+		</p>
+		<h2>Stops</h2>
+		<ol>
+			<li>Tavern A (address) (link to map app)</li>
+			<li>Tavern E (address) (link to map app)</li>
+			<li>Tavern D (address) (link to map app)</li>
+			<li>Tavern B (address) (link to map app)</li>
+			<li>Tavern C (address) (link to map app)</li>
+		</ol>
+	</article>
+
+
+	<script src="js/surge.js"></script>
+</body>
+
+</html>
