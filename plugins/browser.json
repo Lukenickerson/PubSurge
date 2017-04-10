@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.lukenickerson.pubsurge"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.lukenickerson.pubsurge"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.lukenickerson.pubsurge"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.lukenickerson.pubsurge"
+        }
+    },
+    "dependent_plugins": {}
+}
